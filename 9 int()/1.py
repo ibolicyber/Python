@@ -1,0 +1,14 @@
+# bu metod elementleri tam edede cevirir
+
+x = 1
+y = 2.4
+z = '3'
+
+x = int(x)
+y = int(y)
+z = int(z)
+
+print (  x*5  )
+print (  y*5  )
+print (  z*5  )  
+
