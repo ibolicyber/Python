@@ -1,0 +1,95 @@
+____________________________________________________________________________________
+
+Quraştırmaq üçün Python'un rəsmi saytına daxil oluruq 
+
+https://www.python.org/  
+
+____________________________________________________________________________________
+
+burdan Downloads bölümüne gelirik və Downloads For Windows'a klikləyiriq 
+və yükləyirik, yükledikden sonra quraştıracayıq :
+
+____________________________________________________________________________________
+
+quraştırma bölümünde - Add Python 3.5 To Path - diye seçim olacak bunu işareleyeciyiq.
+
+İşarələməsək terminalda : python --version  
+yazdıqda xəta veresidi. 
+
+____________________________________________________________________________________
+
+işarələməyi etmesek el ile manual olaraq etmek de mümkündür :
+
+1 - Search hissesine - "environment variables"
+2 - Çıxan nəticədən “Edit the system environment variables” seçirik 
+3 - Açılan pəncərədə aşağıda Environment Variables düyməsini klikləyiriq.
+4 - Orada Path dəyişənini görəcəyik.
+
+və ya 
+
+1 - Win + R bas
+2 - yaz - sysdm.cpl 
+3 - Advanced tabına keçirik
+4 - Açılan pəncərədə aşağıda Environment Variables düyməsini klikləyiriq.
+
+və ya 
+
+1 - This PC üzərinə sağ klik.
+2 - Properties
+3 - Advanced system settings
+4 - Environment Variables → Path → Edit.
+
+____________________________________________________________________________________
+
+Python-u Windows PATH-ə manual əlavə etmək üçün belə edirik 
+
+1 - Əvvəl yüklediğimiz Python-un harada qurulduğunu tapmalıyıq. 
+2 - adətən bele olur - C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\
+
+və Script qovluğu var 
+
+3 - C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Scripts\
+4 - Path bölmesini yuxarıda dediğim kimi açırıq 
+5 - Environment Variables → Path →
+6 - New düyməsini basırıq və bunları əlavə edirik :
+7 - C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\
+8 - sonra yenə New:
+9 - C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Scripts\
+
+Sonra OK → OK → OK.
+
+____________________________________________________________________________________
+
+Yoxlamaq üçün 
+
+Yeni PowerShell və ya CMD açırıq və yazırıq:
+
+python --version
+
+Əgər versiya çıxırsa deməli PATH düzgün əlavə olunub
+
+____________________________________________________________________________________
+
+Qeyd : Əğər Python312 əvəzinə başqa versiya qurulubsa (məsələn Python311 və ya Python310), PATH-də onu yazmalıyıq.
+
+____________________________________________________________________________________
+
+dediğim kimi əğər quraştırma bölümünde - Add Python 3.5 To Path 
+işarələsək bu geder oynamağa ehtiyac qalmıyacaq. 
+
+____________________________________________________________________________________
+
+Bütün bunlar bitdikdən sonra VS Code açırıq və "Extensions" bölümünde 
+Search hissesine Python yazırıq və Python proqramını quraştırırıq. 
+
+Quraşdırma sebebi PLAY düymesinin yaranmasıdır.
+
+____________________________________________________________________________________
+
+Qeyd : Microsoft.com ile işarelenmiş olan proqramı quraştıracayıq
+
+____________________________________________________________________________________
+
+bu yazdıqlarımı şekiller ile de nece edileceyini gösterdim.
+
+____________________________________________________________________________________
