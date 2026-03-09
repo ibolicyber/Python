@@ -1,4 +1,4 @@
-
+# STRING e çevirdiğimiz üçün tekrarlanacaqlar, NUMBER olsa vurma emeliyyatı olacaq idi.
 
 x = 1
 y = 2.4
