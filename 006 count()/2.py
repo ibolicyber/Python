@@ -1,6 +1,10 @@
-# hecne yazmayanda umumi sayi verir
+# Əğər dırnaqcıq içine ister NUMBER ister STRİNG bir simvol yazsaq 
+# neticec olaraq 2 qaytarır.
 
-nomre = '+994 77 510 33 27'
-print ( nomre.count("") )
+# Çünkü
 
+# ilk öncə bir boşluq yaradılır ve sonra o boşluqa simvol elave edilir
+# Nəticə olaraq hemişe bir say artıq elde edirik.
 
+ad = "1"
+print( ad.count("") )
