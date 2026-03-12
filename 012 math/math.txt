@@ -1,0 +1,18 @@
+ctrl - düymesini basılı tutaraq "math" in üstüne klikleyereq
+math modulunun içindeki kodları göre bilerik 
+
+____________________________________________________________________________________
+
+misal "sqrt()" nin işlemesi :
+
+def sqrt(x: _SupportsFloatOrIndex, /) -> float: ...    - math modulunun içinden bir setr
+
+sqrt ni burda proqramist def açar sözü ilə yaratıbdı 
+x parametresi arqument gebul edir
+
+print( math.sqrt( 25 ) )  - bizim yazdığımız eded gönderilir "x" parametrine
+ve orda bir kod yazılıb o kod bizə 25 in kök altını verir.
+
+math in içinde yazılanları bilmek vacib deyil
+
+____________________________________________________________________________________
